@@ -28,7 +28,7 @@ nav {
 
   justify-content: space-between;
 
-  padding: 0 44px;
+  padding: 0 36px;
 
   height: 64px;
 
@@ -54,20 +54,20 @@ nav.scrolled {
   box-shadow: 0 8px 32px rgba(0,0,0,0.35);
 }
 
-/* LEFT / RIGHT MENU */
+/* LEFT / RIGHT */
 
 .nav-left,
 .nav-right {
   display: flex;
 
-  gap: 34px;
-
   align-items: center;
+
+  gap: 22px;
 
   position: static;
 }
 
-/* MENU LINKS */
+/* LINKS */
 
 .nav-left a,
 .nav-right a {
@@ -75,22 +75,22 @@ nav.scrolled {
 
   text-decoration: none;
 
-  font-size: 10.5px;
+  font-size: 9px;
 
   font-weight: 600;
 
-  letter-spacing: 0.14em;
+  letter-spacing: 0.08em;
 
   text-transform: uppercase;
 
-  opacity: 1;
+  white-space: nowrap;
 
   transition:
     opacity 0.3s,
     color 0.3s;
 }
 
-/* KEEP WHITE ON SCROLL */
+/* SCROLL */
 
 nav.scrolled .nav-left a,
 nav.scrolled .nav-right a {
@@ -103,9 +103,9 @@ nav.scrolled .nav-right a {
 
 .nav-left a:hover,
 .nav-right a:hover {
-  opacity: 1;
-
   color: #fff;
+
+  opacity: 1;
 }
 
 /* LOGO */
@@ -116,12 +116,10 @@ nav.scrolled .nav-right a {
   left: 50%;
 
   transform: translateX(-50%);
-
-  margin-left: 0;
 }
 
 .nav-logo img {
-  height: 240px;
+  height: 150px;
 
   display: block;
 
@@ -138,9 +136,11 @@ nav.scrolled .nav-right a {
 /* LANGUAGE */
 
 .nav-lang {
-  font-size: 13px;
+  font-size: 10px;
 
   font-weight: 700;
+
+  white-space: nowrap;
 }
 
 .nav-lang span.lang-btn {
@@ -154,7 +154,7 @@ nav.scrolled .nav-right a {
 }
 
 .nav-lang span.lang-btn.active {
-  color: #f5f3f3;
+  color: #fff;
 
   font-weight: 700;
 }
@@ -189,7 +189,7 @@ nav.scrolled .nav-right a {
   cursor: pointer;
 }
 
-.burger span { 
+.burger span {
   display: block;
 
   width: 100%;
@@ -213,13 +213,13 @@ nav.scrolled .nav-right a {
     height: 60px;
   }
 
-  /* BURGER SHOW */
+  /* BURGER */
 
   .burger {
     display: block;
   }
 
-  /* MOBILE MENU */
+  /* MENU */
 
   .nav-left,
   .nav-right {
@@ -262,17 +262,15 @@ nav.scrolled .nav-right a {
     font-size: 14px;
 
     letter-spacing: 0.08em;
-
-    opacity: 1;
   }
 
-  /* LOGO */
+  /* MOBILE LOGO */
 
   .nav-logo img {
-    height: 100px;
+    height: 95px;
   }
 
-  /* LANGUAGE */
+  /* MOBILE LANGUAGE */
 
   .nav-lang {
     font-size: 12px;
