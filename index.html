@@ -20,27 +20,66 @@
   </div>
 
   <div class="nav-left">
-    <a href="#">Портфолио</a>
-    <a href="#">Изделия</a>
-    <a href="#">О нас</a>
-    <a href="#">Услуги</a>
-  </div>
 
-  <a href="#" class="nav-logo">
-    <img src="LOGO-2.png" alt="MUKAAB">
+    <a href="#"
+       data-i18n="nav-portfolio">
+       Портфолио
+    </a>
+  
+    <a href="#"
+       data-i18n="nav-products">
+       Изделия
+    </a>
+  
+    <a href="#"
+       data-i18n="nav-about">
+       О нас
+    </a>
+  
+    <a href="#"
+       data-i18n="nav-services">
+       Услуги
+    </a>
+  
+  </div>
+  
+  <a href="#"
+     class="nav-logo">
+  
+    <img src="LOGO-2.png"
+         alt="MUKAAB">
+  
   </a>
-
+  
   <div class="nav-right">
-    <a href="#">Вакансии</a>
-    <a href="#">Контакты</a>
-
+  
+    <a href="#"
+       data-i18n="nav-vacancies">
+       Вакансии
+    </a>
+  
+    <a href="#"
+       data-i18n="nav-contacts">
+       Контакты
+    </a>
+  
     <span class="nav-lang">
-      <span class="lang-btn active">РУ</span>
+  
+      <span class="lang-btn active"
+            onclick="changeLanguage('ru')">
+            РУ
+      </span>
+  
       <span class="nav-divider"> / </span>
-      <span class="lang-btn">EN</span>
+  
+      <span class="lang-btn"
+            onclick="changeLanguage('en')">
+            EN
+      </span>
+  
     </span>
+  
   </div>
-
 </nav>
 
 <!-- HERO -->
@@ -245,7 +284,7 @@
     <!-- CARD 2 -->
     <div class="service-card"
           style="background-image:url('Open Fire - Röshults.jpg');">
-         <<h3 data-i18n="svc-custom">
+         <h3 data-i18n="svc-custom">
         Индивидуальные изделия
       </h3>
     
@@ -255,9 +294,9 @@
     <div class="service-card"
     style="background-image:url('5.jpg');">
 
-      <h3 data-i18n="svc-custom">
-        Дизайн интерьера
-      </h3>
+    <h3 data-i18n="svc-interior">
+      Дизайн интерьера
+    </h3>
 
     
     </div>
@@ -265,10 +304,9 @@
     <!-- CARD 4 -->
     <div class="service-card"
          style="background-image:url('3.jpg');">
-
-      <h3 data-i18n="svc-visual">
-        Визуализация
-      </h3>
+         <h3 data-i18n="svc-visual">
+          Визуализация
+        </h3>
 
     
     </div>
