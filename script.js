@@ -92,11 +92,10 @@ const translations = {
     // Services
     'services-heading':   'Services',
     'svc-arch':           'Architecture',
-    'svc-interior':       'Interior Design Project',
-    'svc-custom':         'Custom Products',
-    'svc-visual':         'Visualization',
-    'svc-btn':            'Leave a Request',
-
+    'svc-interior':       'Custom Productsn ',
+    'svc-custom':         'Interior Design',
+    'svc-interior': 'Interior Design',
+    'svc-visual': 'Visualization',
     // About
     'about-label':    'About Us',
     'about-title':    'We Create Emotions Through Design',
@@ -220,12 +219,13 @@ function changeLanguage(lang) {
   applyLang(lang);
 }
 
-// ── NAVBAR SCROLL ──
+/* NAVBAR SCROLL */
+
 const nav = document.getElementById('navbar');
+
 window.addEventListener('scroll', () => {
   nav.classList.toggle('scrolled', window.scrollY > 10);
 });
-
 // ── HERO SLIDER ──
 let current = 0;
 const slides = document.getElementById('heroSlides');
