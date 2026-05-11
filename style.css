@@ -117,8 +117,16 @@ nav.scrolled .nav-right a {
     opacity 0.4s ease,
     filter 0.4s ease;
 }
+.nav-lang {
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
 .nav-lang span.lang-btn {
   cursor: pointer;
+
+  color: #e9e6e677;
 
   transition:
     color 0.2s,
@@ -126,15 +134,14 @@ nav.scrolled .nav-right a {
 }
 
 .nav-lang span.lang-btn.active {
-  color: #fff;
+  color: #f5f3f3;
 
   font-weight: 700;
 }
 
 .nav-lang span.lang-btn:hover {
-  color: #fff;
+  color: #cfcece;
 }
-
 .nav-divider {
   color: rgba(255,255,255,0.4);
 
@@ -218,7 +225,7 @@ nav.scrolled .nav-right a {
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 360px 300px;
+  grid-template-rows: 360px 380px;
 
   gap: 30px;
 
