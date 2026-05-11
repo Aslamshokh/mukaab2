@@ -75,7 +75,7 @@ nav.scrolled {
 
   text-decoration: none;
 
-  font-size: 12px;
+  font-size: 10px;
 
   font-weight: 600;
 
@@ -119,7 +119,7 @@ nav.scrolled .nav-right a {
 }
 
 .nav-logo img {
-  height: 170px;
+  height: 250px;
 
   display: block;
 
