@@ -91,6 +91,17 @@ nav.scrolled .nav-right a {
   color: #fff;
 }
 
+/* LOGO CONTAINER */
+.nav-logo {
+  position: absolute;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  margin-left: 5px;
+}
+
 /* LOGO */
 .nav-logo img {
   height: 240px;
@@ -106,19 +117,29 @@ nav.scrolled .nav-right a {
     opacity 0.4s ease,
     filter 0.4s ease;
 }
+.nav-lang span.lang-btn {
+  cursor: pointer;
 
-/* LOGO ON SCROLL */
-nav.scrolled .nav-logo img {
-  opacity: 1;
-
-  filter: brightness(3);
+  transition:
+    color 0.2s,
+    font-weight 0.2s;
 }
 
-/* EN VERSION */
-.nav-logo.lang-en img {
-  height: 320px;
+.nav-lang span.lang-btn.active {
+  color: #fff;
+
+  font-weight: 700;
 }
 
+.nav-lang span.lang-btn:hover {
+  color: #fff;
+}
+
+.nav-divider {
+  color: rgba(255,255,255,0.4);
+
+  margin: 0 2px;
+}
 /* LANGUAGE SWITCH */
 .nav-lang {
   font-size: 10.5px;
