@@ -14,8 +14,8 @@ from typing import Dict
 
 # ===================== НАСТРОЙКИ =====================
 BOT_TOKEN = ""  # Замените на ваш токен от @BotFather
-ADMIN_ID = 5429829606  # Замените на ваш Telegram ID (узнайте у @userinfobot)
-YOUR_TELEGRAM_LINK = "https://t.me/Shodiev_13_01"
+ADMIN_ID =   # Замените на ваш Telegram ID (узнайте у @userinfobot)
+YOUR_TELEGRAM_LINK = ""
 
 # Хранилище данных
 user_reply_context: Dict[int, int] = {}  # admin_id -> user_id (кому отвечает админ)
